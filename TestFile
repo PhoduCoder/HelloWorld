@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+print ("This is the First Python project on Github")
+
+num1=(int)raw_input()
+num2=(int)raw_input()
+
+def addNumbers(x,y):
+  return x+y
+  
+num3=addNumbers(num1,num2);
+
+print num3
